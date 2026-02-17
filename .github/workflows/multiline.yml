@@ -1,0 +1,10 @@
+name: multiline test
+on: workflow_dispatch
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: name test
+        run: |
+          echo "Hello"
+          echo "How are you"
